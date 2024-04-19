@@ -1,0 +1,95 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Iframe</title>
+</head>
+
+<body>
+  <table bgcolor="white">
+  <tr>
+  	<td width="80%"><CENTER><H1 id="Spartangym"><I><FONT COLOR=ROJO><FONT FACE="Viner Hand ITC"> Spartan Gym </I></H1></CENTER></td>
+  	<td> <img src="Imagenes\Logo.jpg" width="60%" heigth="60"></td>
+  </tr>
+  </table>
+  <br><br><br><br>
+  <!--Tabla del menu con subpaginas-->
+  <table border="1px" width ="100%" heigth ="300%" style="border-collapse:collapse;">
+  	<tr>
+  		<td bgcolor="Yellow"><a href="Spartan_Gym.html"><center> Pagina Principal </center></a></td>
+  		<td><a href="https://www.facebook.com/profile.php?id=100088503597486"><center> Pagina de Facebook </center></a></td>
+
+  		<td><a href="Ventadeequipo.html"><center> Venta de equipo </center></a></td>
+
+  		<td><a href="suplementos.html"> <center> Suplementos </center></a></td>
+  		<td><center> <a href="Accesorios.html">Accesorios deportivos </a></center></td>
+  		<td><center> <a href="Planes.html">Planes, eventos y promociones</a> </center></td>
+  	</tr>
+  </table>
+
+  <CENTER><H1 id="Inicio"><I>Pagina con Iframes</I></H1></CENTER></FONT></FONT>
+
+<!-- Este iframe utiliza una tabla con dos celdas para alojar el iframe-->
+<table width="950" height="400" border="1"> <!-- Declaración y Dimensiones de la tabla-->
+<tr><!-- Fila -->
+<td width="491"><!-- celda 1-->
+<table width="281" height="151" border="1">
+  <tr><!-- Fila-->
+    <td><!-- celda 1 que tiene el hipervínculo-->
+      <video width="640" height="360" controls>
+        <source src="Imagenes\concurso.mp4" type="video/mp4">
+      </video>
+    </td>
+  </tr>
+</table>
+</td>
+<td width="400"><!-- celda 2 que tiene el hipervínculo dimensiones -->
+<iframe src="Iframe2.html" name="ventana" width="400" height="400" scrolling="yes"></iframe>
+<!--celda dos que despliega el hipervinculo-->
+</td>
+</tr>
+</table>
+<a href="inicioIframes.html" target="ventana">Costos del evento</a>
+<br><br><br><br>
+<form>
+  <div class="form-group">
+    <textarea class="form-control" rows="7"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Enviar comentario</button>
+</form>
+<br><br><br><br><br>
+<!--Viñetas de informacion de contacto-->
+<I> &copy Medios de contacto y redes sociales:</I><P>
+
+<ul>
+	<li>Facebook:
+	<ul>
+         <li><a href="https://www.facebook.com/profile.php?id=100088503597486"> Spartan Gym </a> </li>
+	</ul>
+	</li>
+
+	<li>WhatsApp:
+	<ul>
+         <li>https://chat.whats_App.org</li>
+	</ul>
+	</li>
+
+	<li>Ubicanos:
+	<ul>
+         <li><a href="https://maps.app.goo.gl/JxfHtxZjhWfDjfnFA">Ubicacion en google maps</a> </li>
+	</ul>
+	</li>
+</ul>
+
+<style>
+form {
+margin: 0 auto; /* Centra el formulario horizontalmente dentro de su contenedor */
+width: 50%; /* Anchura del formulario, ocupa el 50% del ancho del contenedor */
+padding: 20px; /* Espacio interno dentro del formulario */
+border: 1px solid #ccc; /* Borde del formulario */
+}
+form:hover {
+  border-color: #4CAF50; /* Cambia el color del borde del formulario al pasar el cursor sobre él */
+}
+</style>
+</body>
+</html>
